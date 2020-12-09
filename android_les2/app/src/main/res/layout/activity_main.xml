@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_margin="30dp"
         android:textSize="150sp"
         android:text="0"
         />
@@ -22,16 +21,19 @@
         android:layout_width="141dp"
         android:layout_height="126dp"
         android:layout_centerInParent="true"
+        android:layout_below="@+id/textView"
         android:src="@drawable/ic_add_black_24dp" />
 
-    <ImageView
-        android:id="@+id/imageViwe2"
-        android:layout_width="141dp"
-        android:layout_height="126dp"
-        android:layout_centerInParent="true"
-        android:layout_below="@+id/imageViwe"
-        android:src="@drawable/ic_remove_black_24dp" />
 
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViwe"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:text="Далее" />
 
 
 </RelativeLayout>
